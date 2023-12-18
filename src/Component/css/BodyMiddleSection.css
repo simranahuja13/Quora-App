@@ -1,0 +1,13 @@
+.bodyMiddleSection{
+       display: flex;
+       flex-direction: column;        
+       /* width: 45%; */
+       margin: 10px;      */
+}
+@media only screen and (max-width: 900px) {
+       .bodyMiddleSection{
+              /* display: none; */
+              
+       }
+      
+}

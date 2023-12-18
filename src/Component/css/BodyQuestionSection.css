@@ -1,0 +1,60 @@
+
+.bodyQuestionSectionContainer{
+      border-radius: 10px;
+      padding-top: 20px;
+      padding-left: 8px;
+      padding-right: 8px;
+      margin: 10px 5px;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      background-color: rgb(253, 253, 253);
+
+}
+.bodyQS1{
+     display: flex;
+     
+     /* width: 600px; */
+     flex-direction: row;          
+}
+.bodyQS1 button{
+      color: rgb(176, 169, 169);
+      margin-left: 10px;
+      height: 40px;
+      width: 98%;
+      font-size: 20px;
+      padding: 5px;
+      margin-bottom: 10px;
+      border-radius: 15px;
+      border: none;
+}
+.qbutton{
+      width: 100%;
+     
+}
+.dot{
+      
+}
+.qbutton button:hover{
+      background-color: rgb(210, 211, 212);
+      color: gray;
+}
+.bodyQFooter{
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+            
+}
+.Reaction:hover{
+      /* background-color:rgb(210, 211, 212) ; */
+      color: rgb(23, 22, 22);
+}
+.Reaction{
+               width: 100%;
+               display: flex;
+               padding-top: 5px;
+               justify-content: center;
+               margin: 4px;
+               cursor: pointer;
+               color: rgb(100, 99, 99);
+}
+
+

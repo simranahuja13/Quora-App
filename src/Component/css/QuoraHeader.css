@@ -1,0 +1,124 @@
+*{
+     padding: 0;
+     margin: 0;          
+}
+.img{
+      height: 40px;
+      width: 120px;
+}
+.containerHeader{
+      position: sticky;
+      z-index: 1000;
+      top: 0px;
+      padding: 4px;
+      background-color: rgb(253, 253, 253);
+      box-shadow: 10px 1px 10px rgb(150, 149, 149);          
+}
+.active {
+      border-bottom: 2px solid rgb(95, 7, 7);
+     
+}
+.homeIcon:hover,.ansIcon:hover,.followingIcon:hover,.notificationIcon:hover,.spaceIcon:hover{
+      border-bottom: 2px solid rgb(95, 7, 7);
+}
+
+.parentHeader{
+      display: flex;
+      flex-direction: row; 
+      font-size: 20px;
+      align-items: center;
+      justify-content: center;
+      gap: 25px;
+}
+#Quora{
+      color: rgb(184, 21, 21);
+      font-size: 30px;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      font-weight: bold;
+      text-decoration: none;
+      border-bottom: none;
+}
+.headerSearchContainer{
+      border: none;
+
+}
+.headerSearchContainer button{
+      border:none;         
+}
+.headerSearchContainer input{
+      margin-left: 2px;
+}
+.headerSearchContainer input:focus{
+      outline: 1px solid blue;         
+}
+.headerSearch{
+               float: right;
+                 padding: 5px;
+                font-size: 20.8px;
+                border: none;         
+}
+.quoraPlusLink button{
+        font-size: 15px;
+        padding: 3px;
+        border-radius: 14px;       
+}
+.addQuestionIcon button{
+      background-color: rgb(184, 21, 21);
+      font-size: 15px;
+      padding: 8px;
+      border: none;
+      border-radius: 5px;
+      color: aliceblue;
+
+}
+.addQuestionIcon button:hover{
+      background-color: rgb(144, 11, 11);   
+}
+
+.LogOut button{
+      padding: 8px;
+      font-size: 15px;
+      border-radius: 5px;
+      background-color: rgb(195, 43, 43);
+      color: white;
+      border: none;
+}
+.headerSelect{
+      width: 30px;
+      font-size: 20px;
+      border: none;
+      background-color: rgb(184, 21, 21);
+      color: rgb(15, 15, 15);         
+}
+
+
+ @media only screen and (max-width: 1200px) {
+      .parentHeader{
+            scale: 0.9;
+      }
+}
+@media only screen and (max-width: 900px) {
+      .parentHeader{
+            scale: 0.7;
+      }
+}
+@media only screen and (max-width: 700px) {
+      .parentHeader{
+            scale: 0.6;
+      }
+}
+@media only screen and (max-width: 600px) {
+      .parentHeader{
+            scale: 0.5;
+      }
+}
+@media only screen and (max-width: 500px) {
+      .parentHeader{
+            scale: 0.4;
+      }
+}
+      @media only screen and (max-width: 400px) {
+            .parentHeader{
+                  scale: 0.3.5;
+            }
+}

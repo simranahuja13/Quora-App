@@ -1,0 +1,221 @@
+
+.postContainer{
+        font-family:Arial, Helvetica, sans-serif;
+        margin: 15px 5px;
+        /* padding: 10px; */
+        background-color: rgb(253, 253, 253);
+        display: flex;
+        flex-direction: column;
+        z-index: 999;
+        border: 1px solid rgb(221, 217, 217);
+}
+.postContainer p,h4{
+      padding: 10px;
+      color: rgb(96, 95, 95);
+}
+.clearicon{
+        float: right;
+        cursor: pointer;
+}
+.post_images{
+        width: 100%;
+        height: 500px;
+
+}
+.hName{
+               display: flex;
+               flex-direction: row;
+               cursor: pointer;
+
+}
+.hName span{
+        cursor: pointer;
+       margin-left: 5px;
+       color: rgb(14, 80, 246); 
+}
+.follow{
+        color: rgb(14, 80, 246);
+}
+.pHeader1{
+               display: flex;
+               flex-direction: row;
+               justify-content: space-between;
+               padding: 10px;
+
+}
+.pHeader2{
+        display: flex;
+        flex-direction: row;
+        /* margin: px; */
+        /* justify-content: space-between; */
+
+}
+.ppn{
+        margin-left: 10px;
+}
+.postFcontainer{
+        display: flex;
+       flex-direction: row;          
+}
+
+.pfooter1{
+               display: flex;
+              flex-direction: row;
+              justify-content: space-between; 
+              padding: 5px;
+
+}
+.pfooter2{
+        display: flex;
+        
+       flex-direction: row; 
+
+}
+.pfooter2 div{
+     margin: 0px 2px;
+}
+.pReaction{
+        cursor: pointer;
+               display: flex;
+              flex-direction: row;
+             
+     
+}
+.downvote button{
+        color: rgb(100, 99, 99);
+        padding: 4px;
+        border: none;
+        border-radius: 2px;
+}
+.pComment{
+        border-top: 5px double gray;
+     display: flex;
+     flex-direction: column;
+     /* justify-content: space-between;   */
+      width: 100%;
+      margin-top: 5px;
+      padding: 3px;
+      /* color: rgb(100, 99, 99); */
+}
+.commentedFieldBox{
+        /* border-top: 5px double gray; */
+        margin-top: 5px;
+        padding-top: 10px;
+        display: flex;
+}
+.commentedBox{
+        padding: 10px;
+        font-size: 20px;
+        display: flex;
+        justify-content: center;
+}
+.commentedFieldBox div{
+      display: inline-block;
+}
+
+
+.flex1{
+flex: 13%;
+}
+/* .flex2 input{
+        font-size: 20px;
+        padding: 7px;
+        width: 100%;    
+} */
+
+.pComment input{
+     font-size: 20px;
+     padding: 7px;
+     width: 100%;
+}
+.AnswerFooter{
+     display: flex;
+     flex-direction: row;
+        
+}
+.AnswerFooterAvtar{
+        flex: 5;
+}
+.AnswerFooterInput{
+        flex: 50;
+}
+.AnswerFooterButton{
+        flex: 15;
+}
+.pComment button{
+        flex: content;
+    padding: 7px;
+    font-size: 20px;
+    width: 100%;
+}
+.commentList{
+        list-style-type: none;
+}
+.voteupvote{
+               display: flex;
+               flex-direction: row;
+}
+.vote button,.pFc{
+               display: flex;
+               font-size: 20px;
+               flex-direction: row;
+               border: none;
+               padding: 5px;
+               border-radius: 2px;
+               color: rgb(100, 99, 99);
+            
+}
+
+button,.horisign{
+        cursor: pointer;
+}
+
+.vote button:hover{
+        color: white;
+        background-color: rgb(36, 57, 215);
+}
+
+img{
+      width: inherit;  
+}
+.svg-icon{
+      z-index: 999;  
+}
+
+.tooltip {
+        position: relative;
+        display: inline-block; /* If you want dots under the hoverable text */
+      }
+      
+      /* Tooltip text */
+      .tooltip .tooltiptext {
+        visibility: hidden;
+        width: 90px;
+        background-color: rgb(68, 65, 65);
+        color: #fff;
+        text-align: center;
+        padding: 3px 1px;
+        border-radius: 6px;
+                bottom: 100%;
+                left: 50%;
+                margin-left: -60px; /* Use half of the width (120/2 = 60), to center the tooltip */
+            
+        /* Position the tooltip text - see examples below! */
+        position: absolute;
+        z-index: 1;
+      }
+      
+      /* Show the tooltip text when you mouse over the tooltip container */
+      .tooltip:hover .tooltiptext {
+        visibility: visible;
+      }
+     
+
+@media only screen and (max-width: 900px) {
+
+       .postContainer img{
+      width: 100%;
+       } 
+            
+        
+        }

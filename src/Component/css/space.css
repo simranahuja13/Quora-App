@@ -1,0 +1,38 @@
+.space_container{
+            margin-top: 22px;
+            /* top: 0px;  */
+      
+           
+     
+}
+.space{
+      position: relative;
+      display: flex;
+      flex-direction: row;
+      font-size: 15px;
+      /* line-height: 40px; */
+      padding: 5px;
+      margin-bottom: 15px;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      cursor: pointer;         
+}
+.space:hover{
+      background-color: rgb(196, 193, 193);
+}
+.space img{
+    width: 30px; 
+    border-radius: 50%; 
+}
+.createS{
+      background-color: rgb(204, 201, 201);
+      border-radius: 5px;
+}
+.space p{
+   margin-left: 10px;
+}
+
+
+
+@media only screen and (max-width: 1200px) {
+  
+      }

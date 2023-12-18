@@ -1,0 +1,17 @@
+.BodyRight{
+       /* width: 28%; */
+       max-width: 28%;
+       margin-top: 15px;
+       border-radius: 15px;
+       padding: 10px;
+       font-size: large;
+       /* background-color: rgb(253, 253, 253);         */
+}
+.images{
+       width: 270px;
+}
+@media only screen and (max-width: 900px) {
+       .BodyRight{
+              display: none;
+       }
+}

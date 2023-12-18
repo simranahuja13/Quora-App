@@ -1,0 +1,94 @@
+.quorabodycontainer{
+        display: flex;
+        flex-direction: row;
+        /* float: left; */
+        background-color: rgb(223, 218, 218);
+        justify-content: center;     
+}
+.bodycontent{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 85%;
+}
+.filterforspaces{
+  flex: 5%;
+}
+.bodyMiddleSection{
+ flex: 50%;
+}
+.BodyRight{
+flex: 40%;
+}
+
+@media only screen and (max-width: 1200px) {
+        .quorabodycontainer{
+
+                display: flex;
+                flex-direction: row;
+                /* float: left; */
+                width: 100%;
+                background-color: rgb(223, 218, 218);
+                justify-content: center;     
+        }
+        .bodycontent{
+                
+                /* margin-left: 10%; */
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            width: 90%;
+           
+        }
+        .filterforspaces{
+          flex: 20%;
+        }
+        .bodyMiddleSection{
+         flex: 80%;
+        }
+        /* .BodyRight{
+        flex: 15%;
+        }     */
+
+}
+
+@media only screen and (max-width: 900px) {
+        .quorabodycontainer{
+                display: flex;
+                flex-direction: row;
+                /* float: left; */
+                background-color: rgb(223, 218, 218);
+                justify-content: center;
+                width: 100%;     
+        }
+        .bodycontent{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            width: 100%;
+        }
+        .filterforspaces{
+                flex: 20%;
+              }
+              .bodyMiddleSection{
+               flex: 80%;
+              }
+        
+              @media only screen and (max-width: 600px) {
+                .quorabodycontainer{
+                        display: flex;
+                        flex-direction: row;
+                        /* float: left; */
+                        background-color: rgb(223, 218, 218);
+                        justify-content: center;
+                        width: 100%;     
+                }
+                .bodycontent{
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    width: 100%;
+                }
+                
+
+}}
